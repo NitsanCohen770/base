@@ -1,0 +1,2 @@
+export { globalFont } from './font';
+

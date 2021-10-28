@@ -1,0 +1,14 @@
+.links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  > li {
+    color: var(--text-gray);
+    margin-right: 32px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}

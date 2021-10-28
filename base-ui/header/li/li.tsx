@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export type LiProps = {
   /**
@@ -8,5 +9,14 @@ export type LiProps = {
 };
 
 export function Li({ text }: LiProps) {
-  return <li>{text}</li>;
+  return (
+    <li>
+      <Link
+        style={{ textDecoration: 'none', color: 'var(--text-gray)' }}
+        to={`/${text}`}
+      >
+        {text}
+      </Link>
+    </li>
+  );
 }

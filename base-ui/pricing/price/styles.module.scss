@@ -1,0 +1,12 @@
+.current {
+  color: var(--text-black);
+  font-family: var(--font-family);
+  font-size: var(--price-size__main);
+}
+
+.previous {
+  color: var(--prev-price);
+  font-family: var(--font-family);
+  font-size: var(--price-size__sub);
+  text-decoration: line-through;
+}

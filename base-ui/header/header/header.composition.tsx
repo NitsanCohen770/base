@@ -1,6 +1,9 @@
 import React from 'react';
 import { Header } from './header';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 export const BasicHeader = () => (
-  <Header text="hello from Header" />
+  <Router>
+    <Header />
+  </Router>
 );

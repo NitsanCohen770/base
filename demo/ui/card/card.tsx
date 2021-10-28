@@ -1,6 +1,6 @@
 import React from 'react';
-import { Heading } from '@company/scope.ui.heading';
-import { Text } from '@company/scope.ui.text';
+import { Heading } from '@nitsan770/base-ui.ui.heading';
+import { Text } from '@nitsan770/base-ui.ui.text';
 import { ExternalLink } from '@teambit/design.ui.external-link';
 import { CopyBox } from '@teambit/documenter.ui.copy-box';
 
@@ -25,11 +25,7 @@ export type CardProps = {
   command?: string;
 };
 
-export function Card(
-  {
-    heading, command, text, link,
-  }: CardProps,
-) {
+export function Card({ heading, command, text, link }: CardProps) {
   return (
     <div className={styles.card}>
       <ExternalLink href={link}>

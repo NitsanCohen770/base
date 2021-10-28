@@ -1,6 +1,9 @@
 import React from 'react';
 import { Ul } from './ul';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 export const BasicUl = () => (
-  <Ul text="hello from Ul" />
+  <Router>
+    <Ul links={['Collections', 'Men', 'Women', 'About', 'Contact']} />
+  </Router>
 );

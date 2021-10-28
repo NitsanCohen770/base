@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-     "defaultScope": "nitsan770.base-ui"
+    "defaultScope": "nitsan770.base-ui"
   },
   /**
    * main configuration for component dependency resolution.
@@ -45,6 +45,7 @@
         "@teambit/eslint-config-bit-react": "~0.0.367",
         "@teambit/harmony": "0.2.11",
         "@teambit/react.templates.themes.theme": "0.0.4",
+        "@types/react-router-dom": "5.3.2",
         "@typescript-eslint/eslint-plugin": "4.29.3",
         "classnames": "2.3.1",
         "eslint-import-resolver-node": "0.3.6",
@@ -52,7 +53,9 @@
         "eslint-plugin-jest": "24.4.0",
         "eslint-plugin-jsx-a11y": "6.4.1",
         "eslint-plugin-mdx": "1.15.0",
-        "eslint-plugin-react": "7.25.1"
+        "eslint-plugin-react": "7.25.1",
+        "react-router": "5.2.1",
+        "react-router-dom": "5.3.0"
       },
       "peerDependencies": {
         "@testing-library/react": "12.0.0",
@@ -76,19 +79,16 @@
    * see https://harmony-docs.bit.dev/aspects/variants for more info.
    **/
   "teambit.workspace/variants": {
-    "{ui/**}, {pages/**}": {
+    "{header/**},{pricing/**}, {pages/**}, {ui/**}": {
       // uses the custom env
-      "company.scope/envs/my-react": {}
+      "nitsan770.base-ui/envs/my-react": {}
       // uncomment the line below if you remove the custom env and remove the line above
-      // "teambit.react/react": {},
     },
-    "{themes/**}": {
+    "{theme/**}": {
       "teambit.react/react": {}
     },
-    "{content/**}": {
-      "teambit.mdx/mdx": {}
-    },
-    "{envs/**}, {extensions/**}": {
+    "{envs/**}": {
+      "teambit.react/react": "-",
       "teambit.harmony/aspect": {}
     }
   }

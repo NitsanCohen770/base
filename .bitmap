@@ -10,68 +10,80 @@
 
 {
     "envs/my-react": {
-        "scope": "",
-        "version": "",
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "demo/envs/my-react"
     },
     "header/header": {
-        "scope": "",
-        "version": "",
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "base-ui/header/header"
     },
     "header/li": {
-        "scope": "",
-        "version": "",
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "base-ui/header/li"
     },
     "header/logo": {
-        "scope": "",
-        "version": "",
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "base-ui/header/logo"
     },
     "header/ul": {
-        "scope": "",
-        "version": "",
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "base-ui/header/ul"
     },
     "pages/welcome": {
-        "scope": "",
-        "version": "",
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "demo/pages/welcome"
     },
+    "pricing/price": {
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "base-ui/pricing/price"
+    },
     "theme/color-palette": {
-        "scope": "",
-        "version": "",
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "base-ui/theme/color-palette"
     },
+    "theme/font": {
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "base-ui/theme/font"
+    },
     "theme/theme-provider": {
-        "scope": "",
-        "version": "",
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "base-ui/theme/theme-provider"
     },
     "ui/card": {
-        "scope": "",
-        "version": "",
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/card"
     },
     "ui/heading": {
-        "scope": "",
-        "version": "",
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/heading"
     },
     "ui/text": {
-        "scope": "",
-        "version": "",
+        "scope": "nitsan770.base-ui",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/text"
     },
