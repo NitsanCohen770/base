@@ -3,20 +3,24 @@ description: 'A ColorPalette component.'
 labels: ['label1', 'label2', 'label3']
 ---
 
-import { ColorPalette } from './color-palette';
+import { colorPalette } from './color-palette';
 
 ## React Component for rendering text
 
 A basic div that renders some text
 
-### Component usage
+### Colors Available:
+
 ```js
-<ColorPalette text="hello from ColorPalette" />
+<div className={colorPalette.color}>
+  <div style={{ backgroundColor: 'var(--text-gray)' }}> Gray</div>
+</div>
 ```
 
 ### Using props to customize the text
 
 Modify the text to see it change live:
+
 ```js live
 <ColorPalette text="hello from ColorPalette" />
 ```
