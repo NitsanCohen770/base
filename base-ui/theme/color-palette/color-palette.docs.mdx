@@ -5,22 +5,25 @@ labels: ['label1', 'label2', 'label3']
 
 import { colorPalette } from './color-palette';
 
-## React Component for rendering text
-
-A basic div that renders some text
+## CSS Component for passing the color-palette as CSS-Variables
 
 ### Colors Available:
 
-```js
 <div className={colorPalette.color}>
   <div style={{ backgroundColor: 'var(--text-gray)' }}> Gray</div>
+  <div style={{ backgroundColor: 'white', color: 'var(--text-black)' }}>
+    Black Text
+  </div>
+  <div style={{ backgroundColor: 'black', color: 'var(--text-white)' }}>
+    White Text
+  </div>
+  <div style={{ backgroundColor: 'green', color: 'var(--prev-price)' }}>
+    {' '}
+    This one is used for previous prices:<span
+      style={{ textDecoration: 'line-through' }}
+    >
+      {' '}
+      99 $
+    </span>
+  </div>
 </div>
-```
-
-### Using props to customize the text
-
-Modify the text to see it change live:
-
-```js live
-<ColorPalette text="hello from ColorPalette" />
-```
