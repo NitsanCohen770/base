@@ -9,6 +9,12 @@
  */
 
 {
+    "base/button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "base-ui/base/button"
+    },
     "envs/my-react": {
         "scope": "nitsan770.base-ui",
         "version": "0.0.2",
